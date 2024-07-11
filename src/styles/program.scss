@@ -1,0 +1,71 @@
+.program {
+    .sarana {
+      background-image: url('../images/Sarana.jpg');
+      background-size: cover; 
+      background-position: center;
+      height: 400px;
+      position: relative;
+      text-align: center;
+      color: #ffffff;
+  
+      .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        border-radius: 10px;
+  
+        h1 {
+          font-size: 2.5em;
+          margin: 0; 
+          font-weight: bold;
+        }
+  
+        p {
+          font-size: 1.3em;
+          margin: 0;
+          font-weight: bold;
+        }
+      }
+    } 
+    
+    .program-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 45%;
+      text-align: left;
+  
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        line-height: 1.2;
+      }
+  
+      hr {
+        border: none;
+        border-top: 1px solid #000;
+        margin: 10px 0;
+      }
+  
+      ol {
+        padding-left: 20px;
+        li {
+          margin-bottom: 10px;
+          font-size: 14px;
+          line-height: 1.5;
+          color: #333;
+          text-align: justify;
+        }
+      }
+    }
+  }  
+}

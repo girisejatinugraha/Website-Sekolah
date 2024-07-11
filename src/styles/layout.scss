@@ -1,0 +1,44 @@
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  .hero {
+    background-color: #007acc;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  
+    h1 {
+      font-size: 3em;
+    }
+  
+    p {
+      font-size: 1.5em;
+    }
+  }
+  
+  .intro, .features {
+    padding: 50px 0;
+  }
+  
+  .intro {
+    background-color: #f9f9f9;
+  }
+  
+  .features {
+    background-color: #fff;
+  
+    ul {
+      padding-left: 20px;
+  
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }  

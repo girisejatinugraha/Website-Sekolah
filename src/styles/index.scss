@@ -1,0 +1,115 @@
+.home {
+  position: relative;
+  text-align: left;
+  color: #ffffff;
+  background: url('../images/Beranda.jpg') no-repeat center center/cover;
+  padding: 10px 100px; 
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(5px); 
+    transform: scale(1.1); 
+    z-index: 1;
+}
+
+&::after {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    padding: 0 20px; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 1.25em;
+      margin-bottom: 40px;
+      line-height: 1.5;
+      color: #ffffff;
+      text-align: justify;
+    }
+
+    .social-media {
+      h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+
+      .icons {
+        display: flex;
+        gap: 20px;
+
+        a {
+          color: #2f58cd;
+          font-size: 2em;
+          transition: color 0.3s, transform 0.3s;
+
+          &:hover {
+            color: #FFDB00;
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+
+    .cta-button {
+      margin-top: 40px;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 20px;
+      background-color: #2f58cd;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 1.2em;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s, box-shadow 0.3s;
+    
+      &:hover {
+        background-color: #FFDB00;
+        color: #ffffff;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      }
+    
+      .cta-link {
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    
+        &:hover {
+          color: inherit;
+        }
+      }
+    }
+  }    
+
+  .hero-background {
+    display: none;
+  }
+}

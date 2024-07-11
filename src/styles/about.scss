@@ -1,0 +1,125 @@
+.about {
+    .hero {
+      background-image: url('../images/Tentang.jpg');
+      background-size: cover; 
+      background-position: center;
+      height: 200px;
+      position: relative;
+      text-align: center;
+      color: #ffffff;
+  
+      .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        border-radius: 10px;
+  
+        h1 {
+          font-size: 2.5em;
+          margin: 0; 
+          font-weight: bold;
+        }
+  
+        p {
+          font-size: 1.3em;
+          margin: 0;
+          font-weight: bold;
+        }
+      }
+    } 
+  
+    .container {
+      padding: 40px 20px;
+    }
+  
+    section {
+      margin-bottom: 60px;
+  
+      h2 {
+        font-size: 2em;
+        color: #000000;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        font-size: 1.2em;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        text-align: justify;
+      }
+  
+      img {
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+    }
+  
+    .vision-mission {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+  
+      .vision, .mission {
+        flex: 1;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+
+        p {
+            margin-bottom: 10px;
+            text-align: justify;
+            font-size: 18px;
+        }
+  
+        h3 {
+          font-size: 2em;
+          color: #333;
+        }
+  
+        ol {
+          padding-left: 20px;
+          li {
+            margin-bottom: 10px;
+            text-align: justify;
+            font-size: 18px;
+          }
+        }
+      }
+      img {
+        max-width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+    }
+  
+    .team {
+      .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+  
+        .team-member {
+          text-align: center;
+          max-width: 200px;
+  
+          img {
+            border-radius: 50%;
+            margin-bottom: 10px;
+          }
+  
+          h3 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+          }
+  
+          p {
+            font-size: 1em;
+            color: #666;
+          }
+        }
+      }
+    }
+}

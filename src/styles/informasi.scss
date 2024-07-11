@@ -1,0 +1,36 @@
+.informasi {
+    padding: 20px;
+    
+    h1 {
+      text-align: left;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  
+    .informasi-content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .informasi-item {
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+  
+      h2 {
+        font-size: 1.5em;
+        margin: 0 0 10px 0;
+      }
+  
+      p {
+        margin: 5px 0;
+        font-size: 1em;
+        color: #555;
+  
+        span {
+          font-size: 0.9em;
+          color: #999;
+        }
+      }
+    }
+  }  
